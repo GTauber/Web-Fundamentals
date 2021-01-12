@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A beleza de Gabriel Tauber</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -15,44 +16,74 @@
         </li>
 
     </ul>
-    <h1>SIM, Sou Lindo. Para conferir minha beleza veja minhas redes sociais.</h1>
+    <h1 class="center">SIM, Sou Lindo. Para conferir minha beleza, veja minhas redes sociais.</h1>
 
-    <h2>Faça um elogio para mim! Entre em contato. </h2>
-    <form>
-        <label for="Name">Name:</label> <br>
-        <input type="text" id="Name">
-        <br>
-        <br>
-        <label for="email">E-mail:</label> <br> 
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="Assunto">Assunto:</label> <br>
-        <textarea name="Assunto" id="Assunto" cols="30" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Send</button>
-    </form>
+    
 
-    <h2>
-        Você também pode marcar um encontro comigo! 
-        Logo a baixo você encontrará um dos meus restaurantes preferidos, onde você poderá me pagar um belo jantar. 
-    </h2>
+    <div class="container">
+        <div>
+            <h2>Faça um elogio para mim! </h2>
+        <form>
+            <label for="Name">Name:</label> <br>
+            <input type="text" id="Name">
+            <br>
+            <br>
+            <label for="email">E-mail:</label> <br> 
+            <input type="email" id="email">
+            <br>
+            <br>
+            <label for="Assunto">Assunto:</label> <br>
+            <textarea name="Assunto" id="Assunto" cols="30" rows="5"></textarea>
+            <br>
+            <br>
+            <button>Send</button>
+        </form>
+        </div>
+        <div class="ml-200">
+        <h2>       
+            Restaurante: 
+        </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14693.578554278854!2d-46.9995842!3d-22.9725113!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2bafd542b5409d49!2sA%C3%B4%20Sushi%20Bar!5e0!3m2!1spt-BR!2sbr!4v1610131172746!5m2!1spt-BR!2sbr" width="400" 
+        height="300" 
+        frameborder="0" 
+        style="border:0;" 
+        allowfullscreen="" 
+        aria-hidden="false" 
+        tabindex="0">
+        </iframe>
+        </div>
 
-    <p>Exigencias para marcar o encontro: 
+    </div>
+
+
+<div class="center">
+    <p> Você também pode marcar um encontro comigo! 
+        Este é um dos meus restaurantes preferidos, onde você poderá me pagar um belo jantar. Exigencias para marcar o encontro: 
         (Ter vontade de me pagar um jantar.)
     </p>
     <p>Conselhos: Se for homem, eu não tenho interesse amoroso, agradeço, mas sou hétero. 
         Lembrando que você pode pagar o jantar para mim independente de ser homem ou mulher! Sinta-se honrado. 
     </p>
-    <p>Restaurante: Ao Sushi bar.</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14693.578554278854!2d-46.9995842!3d-22.9725113!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2bafd542b5409d49!2sA%C3%B4%20Sushi%20Bar!5e0!3m2!1spt-BR!2sbr!4v1610131172746!5m2!1spt-BR!2sbr" width="400" 
-    height="300" 
-    frameborder="0" 
-    style="border:0;" 
-    allowfullscreen="" 
-    aria-hidden="false" 
-    tabindex="0">
-    </iframe>
+    <p class="mb-50">Restaurante: Ao Sushi bar.</p>
+</div>
+
+<hr>
+    <footer>
+
+        <div class="container">
+            <a href="https://www.facebook.com/gabriel.tauber" target="_blank">
+            <img class="social-img" src="assets/facebook.png" alt="Logo facebook">
+            </a>
+            <a href="https://www.linkedin.com/in/gabriel-tauber-de-a-figueiredo-353002202/" target="_blank">
+            <img class="social-img" src="assets/linkedin.png" alt="Logo linkedin">
+            </a>
+            <a href="https://www.instagram.com/gtauberf/?hl=pt-br" target="_blank">
+            <img class="social-img" src="assets/instagram.png" alt="Logo instagram">
+            </a>
+        </div>
+        <p class="center">
+            Todos direitos reservados para Gabriel Tauber &copy
+        </p>
+    </footer>
 </body>
 </html>

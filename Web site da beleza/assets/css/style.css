@@ -1,0 +1,49 @@
+/* Styles from index.html */
+.center {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.justify{
+    text-align: justify;
+}
+
+#menu li{
+padding: 15px;
+display: inline;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+#menu li a:hover{
+    color: gray;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+.p-30 {
+    padding: 30px;
+}
+
+.social-img{
+    height: 50px;
+    width: 50px;
+    padding: 30px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+/*Styles from Sou lindo.html*/
+
+.ml-200{
+    margin-left: 200px;
+}
